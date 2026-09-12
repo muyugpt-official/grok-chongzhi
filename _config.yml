@@ -1,0 +1,18 @@
+title: Grok充值 / SuperGrok 国内开通指南 2026
+description: Grok充值、SuperGrok 怎么开通：国内充值路径、微信支付宝付款、没有海外卡怎么办、账号 ID 问题、多久到账，以及会员和 xAI API 的区别。MuyuGPT 独立第三方订阅指南，官网 muyugpt.com。
+url: https://muyugpt-official.github.io
+baseurl: /grok-chongzhi
+lang: zh-CN
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-relative-links
+  - jekyll-readme-index
+  - jekyll-titles-from-headings
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
