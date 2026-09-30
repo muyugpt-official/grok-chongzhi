@@ -47,6 +47,18 @@ xAI 的 SuperGrok 档位名称和价格近期有调整，公开整理里的说�
 
 ---
 
+## 按问题找文档
+
+| 你想解决的问题 | 看这篇 |
+| --- | --- |
+| SuperGrok 的档位名称为什么各说各的，怎么自己核对 | [SuperGrok 套餐名称与核对方法](./docs/supergrok-plan-names-and-how-to-verify.md) |
+| 买了 SuperGrok，能不能调用 Grok API | [Grok 订阅和 API 的区别](./docs/grok-subscription-vs-api.md) |
+| 账号 ID 是什么、能给什么不能给什么 | 本页第七节 |
+| 怎么用支付宝 / 微信开通 | 本页第三、四节与 [国内充值指南](https://github.com/muyugpt-official/ai-subscription-guide/blob/main/docs/grok/supergrok-alipay-wechat-recharge.md) |
+| 找第三方代充，怎么判断安不安全 | [GPT代充 / ChatGPT代充安全专题](https://github.com/muyugpt-official/gpt-daichong)（判断方法同样适用于 Grok） |
+
+---
+
 ## 目录
 
 - [一、Grok充值是什么意思？](#一grok充值是什么意思)
@@ -97,6 +109,8 @@ Grok 是 xAI 的 AI 助手品牌，可在 X（原 Twitter）等入口使用；xA
 
 具体各套餐当前包含什么，以 **xAI 官方信息和你账号页面实际显示**为准。参考 👉 [SuperGrok 是什么？功能、价格与适合人群](https://github.com/muyugpt-official/ai-subscription-guide/blob/main/docs/grok/supergrok-guide.md)。
 
+
+**名称为什么对不上：** SuperGrok 的档位名称和价格近期多次调整，公开整理里的说法并不一致，xAI 官方页面我们也无法直接读取，所以本仓库不写死档位清单和价格。SuperGrok 也不等于 X Premium（X 平台自己的会员体系）。怎么自己核对，见 👉 [SuperGrok 套餐名称与核对方法](./docs/supergrok-plan-names-and-how-to-verify.md)。
 ---
 
 ## 三、国内怎么开通 SuperGrok？四类路径
@@ -185,6 +199,8 @@ Grok 是 xAI 的 AI 助手品牌，可在 X（原 Twitter）等入口使用；xA
 
 买之前先想清楚你要的是「网页 / App 会员」还是「API 额度」。
 
+
+补充（2026-10-01，据多家公开整理）：SuperGrok 订阅不含 xAI API 额度；API 要在开发者控制台单独开通并按 token 付费，据整理不需要 X 账号。订阅有用量上限，API 账单则随调用量增长。对照表和常见误区见 👉 [Grok 订阅和 API 的区别](./docs/grok-subscription-vs-api.md)。
 ---
 
 ## 十一、通过 MuyuGPT 充值的流程
@@ -229,6 +245,21 @@ Grok 是助手品牌，SuperGrok 等是把 Grok 进阶能力打包销售的付�
 
 ---
 
+**SuperGrok 现在有哪几档，各多少钱？**
+官方档位名称和价格近期多次调整，公开整理里的说法不一致，我们无法用官方页面逐一核实，所以不写清单。下单前的 8 项核对清单见 [SuperGrok 套餐名称与核对方法](./docs/supergrok-plan-names-and-how-to-verify.md)。
+
+**SuperGrok 和 X Premium 是一回事吗？**
+不是。SuperGrok 是 Grok 自己的订阅，X Premium 是 X 平台的会员体系，较高档附带 Grok 权益；两者的关系近期也在调整，请以两边官方页面为准。
+
+**买了 SuperGrok，可以调用 Grok API 吗？**
+据多家公开整理，不可以。API 需要在 xAI 的开发者控制台单独开通并按 token 付费。详见 [Grok 订阅和 API 的区别](./docs/grok-subscription-vs-api.md)。
+
+**为什么不同文章写的 SuperGrok 价格不一样？**
+价格在变，而且很多整理没有标明核验日期和来源。核对时只信购买页面当时显示的内容。
+
+**MuyuGPT 现在在售的 Grok 商品是什么？**
+[Grok 产品页](https://muyugpt.com/grok) 上架的是 SuperGrok 会员的不同周期套餐（是否有货以页面实时显示为准），SuperGrok Heavy 目前没有上架。
+
 ## 十三、相关阅读
 
 **MuyuGPT 的 AI 充值仓库矩阵：**
@@ -241,6 +272,8 @@ Grok 是助手品牌，SuperGrok 等是把 Grok 进阶能力打包销售的付�
 
 **Grok 深入教程：**
 
+- [SuperGrok 套餐名称与核对方法](./docs/supergrok-plan-names-and-how-to-verify.md)
+- [Grok 订阅和 API 的区别](./docs/grok-subscription-vs-api.md)
 - [Grok / SuperGrok 国内充值指南](https://github.com/muyugpt-official/ai-subscription-guide/blob/main/docs/grok/supergrok-alipay-wechat-recharge.md)
 - [SuperGrok 是什么？功能、价格与适合人群](https://github.com/muyugpt-official/ai-subscription-guide/blob/main/docs/grok/supergrok-guide.md)
 - [SuperGrok 怎么取消](https://github.com/muyugpt-official/ai-subscription-guide/blob/main/docs/grok/supergrok-cancel.md)
@@ -267,6 +300,7 @@ MuyuGPT 是面向中文用户的独立第三方 AI 订阅指南与订阅协助�
 
 ## 更新记录
 
+- **2026-10-01**：新增 `docs/` 下两篇文档——套餐名称与核对方法、Grok 订阅和 API 的区别；README 增加「按问题找文档」索引、第二、十节补充和 5 条 FAQ。因 xAI 官方页面无法读取，文档不写档位清单与价格，并标注各说法的把握程度。
 - **2026-10-01**：加入「2026-10 套餐名称以官方为准」说明（不写档位清单与价格，标注订阅与 API 分开），说明 MuyuGPT 当前在售情况，并更新最后核验日期。
 - **2026-09**：建立 `grok-chongzhi` 仓库，聚焦「Grok充值 / SuperGrok 开通」怎么充、支付宝 / 微信付款、账号 ID 与凭据边界、到账与会员 / API 区别等搜索意图；与 MuyuGPT 其他充值仓库建立专题互链。
 
